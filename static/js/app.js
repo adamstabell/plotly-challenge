@@ -62,7 +62,7 @@ function optionChanged(selected = '940') {d3.json('samples.json').then(function(
 
     var plot_data = [trace1];
     var layout = {
-        title: 'Fuck yeah, I am great.'
+        title: 'Bacteria Cultures Per Sample'
     }
     Plotly.newPlot('bubble', plot_data, layout)
 
@@ -99,7 +99,7 @@ function optionChanged(selected = '940') {d3.json('samples.json').then(function(
     var plot_data = [trace1];
 
     var layout = {
-        title: 'Holy Fuck, it worked'
+        title: 'Top 10 Bacteria Cultures Found'
     };
     Plotly.newPlot('bar', plot_data, layout)
 });
